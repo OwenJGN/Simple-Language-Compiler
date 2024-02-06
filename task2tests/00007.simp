@@ -1,0 +1,23 @@
+int main(int n)
+{
+    int i := 1;
+    int k := 1;
+    int tempk := 0;
+    int j := 1;
+    int flag := 1;
+
+    while ((n <= 0) & ((flag <= 1) & (1 <= flag))) do {
+        flag := 0
+    };
+    while ((i <= n) & ((flag <= 1) & (1 <= flag))) do {
+        while (j <= i) do {
+            tempk := (tempk + k);
+            j := (j + 1)
+        };
+        k := tempk;
+        tempk := 0;
+        j := 1;
+        i := (i + 1)
+    };
+    k
+}
